@@ -135,7 +135,8 @@ export const Template1: React.FC<Props> = props => {
               <div className="work-exp-year">
                 <ScheduleFilled style={{ color: theme.color, opacity: 0.85 }} />
                 <span>
-                  {i18n.get('年龄')}: {profile.workExpYear} // vincent
+                  {/* vincent */}
+                  {i18n.get('年龄')}: {profile.workExpYear}
                 </span>
               </div>
             )}

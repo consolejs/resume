@@ -126,7 +126,8 @@ export const Template2: React.FC<Props> = props => {
                     style={{ color: theme.color, opacity: 0.85 }}
                   />
                   <span>
-                    {i18n.get('工作经验')}: {profile.workExpYear}
+                    {/* vincent */}
+                    {i18n.get('年龄')}: {profile.workExpYear}
                   </span>
                 </div>
               )}
